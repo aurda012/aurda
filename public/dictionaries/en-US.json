@@ -1,0 +1,674 @@
+{
+  "home": {
+    "title": "Explore movies, tv series, and animes!",
+    "description": "Plotwist is for cinema fans who like to explore millions of movies and series, with information such as synopsis, cast, budget, and much more.",
+    "keywords": "Cinema, movies, series, animes, doramas, famous actors, series episodes, cinema users, discover new movies, movie reviews, movie recommendations, cinema releases, popular movies, popular series, highly rated movies, movies in theaters, cinema community, movie lists, discussions about movies",
+    "statistics": {
+      "movies": {
+        "value": 988788,
+        "label": "Movies"
+      },
+      "tv": {
+        "value": 167204,
+        "label": "TV Series"
+      },
+      "episodes": {
+        "value": 4419904,
+        "label": "Episodes"
+      },
+      "people": {
+        "value": 3369005,
+        "label": "Actors"
+      },
+      "users": {
+        "label": "Users"
+      }
+    },
+    "features": {
+      "section_title": "Plotwist Features",
+      "section_description": "Plotwist is for cinema fans who like to explore millions of movies and series, with information such as synopsis, cast, budget, and much more.",
+      "lists": {
+        "title": "Lists",
+        "description": "Create and manage the status of your movies, series, and animes in one beautiful place."
+      },
+      "reviews": {
+        "title": "Reviews",
+        "description": "Write reviews about what you're watching and let the world know your opinion."
+      },
+      "multi_lang_support": {
+        "title": "Multi-language Support",
+        "description": "We support different languages to bring together different countries."
+      },
+      "communities": {
+        "title": "Communities",
+        "description": "Create or participate in specific niche communities."
+      }
+    }
+  },
+  "home_prices": {
+    "title": "Start Your Journey Today",
+    "description": "Discover the world of movies and TV Series like never before. Start your Plotwist journey today and become part of a growing community of cinema enthusiasts!",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "free_plan": {
+      "title": "Free",
+      "price": "$0/month",
+      "description": "Explore movies and create your personal watchlist.",
+      "benefits": [
+        "Full access to the platform",
+        "Unlimited ratings",
+        "A personal list"
+      ],
+      "start_now": "Start Now!"
+    },
+    "pro_plan": {
+      "title": "Pro",
+      "price": "$3/month",
+      "recommended": "Recommended",
+      "description": "Everything in the free plan plus higher limits and custom settings.",
+      "benefits": [
+        "Unlimited lists",
+        "Personal recommendations based on personal taste",
+        "Clone your own or other members' lists",
+        "Change username"
+      ],
+      "subscribe": "Subscribe"
+    },
+    "patreon_plan": {
+      "title": "Patreon",
+      "price": "$10/month",
+      "description": "Coming soon",
+      "coming_soon": "Coming Soon"
+    }
+  },
+  "movies_list": {
+    "now_playing": "Now playing movies",
+    "popular": "Popular movies",
+    "top_rated": "Top rated movies",
+    "upcoming": "Upcoming movies",
+    "show_all": "Show all"
+  },
+  "animes_page": {
+    "title": "Animes",
+    "description": "Find your favorite animes",
+    "button_tv_series": "TV Series",
+    "button_movies": "Movies"
+  },
+  "login_page": {
+    "title": "Login",
+    "description": "Be part of the cinema community, where you can meet and discuss thousands of movies and TV Series!",
+    "no_account": "Don't have an account? Register by clicking",
+    "no_account_link": "here"
+  },
+  "login_form": {
+    "email_label": "E-mail",
+    "password_label": "Password",
+    "show_password": "Show password",
+    "hide_password": "Hide password",
+    "access_button": "Access",
+    "email_required": "Please enter your e-mail address.",
+    "email_invalid": "Please enter a valid e-mail address.",
+    "password_required": "Please enter your password.",
+    "password_length": "Your password must be at least 8 characters long.",
+    "login_success": "Login successful. Welcome! 🎉",
+    "invalid_login_credentials": "Invalid login credentials",
+    "try_again": "Try again"
+  },
+  "sign_up_page": {
+    "title": "Create an account",
+    "description": "Be part of the cinema community, where you can meet and discuss thousands of movies and TV Series!",
+    "already_have_account": "Already have an account? Access by clicking",
+    "here_link": "here"
+  },
+  "sign_up_form": {
+    "username_label": "Username",
+    "email_label": "E-mail",
+    "password_label": "Password",
+    "show_password": "Show password",
+    "hide_password": "Hide password",
+    "submit_button": "Submit",
+    "username_required": "Please enter your username.",
+    "username_invalid": "Username must contain only letters, numbers, and dashes.",
+    "email_required": "Please enter your e-mail address.",
+    "email_invalid": "Please enter a valid e-mail address.",
+    "password_required": "Please enter your password.",
+    "password_length": "Your password must be at least 8 characters long.",
+    "sign_up_success": "Registration successful. Welcome! 🎉",
+    "invalid_sign_up_credentials": "Invalid sign up credentials",
+    "try_again": "Try again",
+    "username_already_taken": "This username or email is already in use."
+  },
+  "app_page": {
+    "dashboard_title": "Home",
+    "dashboard_description": "Overview of your activities and trends.",
+    "popular_movies_title": "Popular Movies",
+    "popular_tv_series_title": "Popular TV Series"
+  },
+  "tabs": {
+    "reviews": "Reviews",
+    "credits": "Credits",
+    "recommendations": "Recommendations",
+    "similar": "Similar",
+    "images": "Images",
+    "videos": "Videos",
+    "seasons": "Seasons"
+  },
+  "navigation": {
+    "home": "Home",
+    "movies": "Movies",
+    "discover": "Discover",
+    "discover_description": "Ready for something new? Let us surprise you with movies and shows you'll love.",
+    "now_playing": "Now Playing",
+    "now_playing_description": "Stay up-to-date with the movies shining on the big screens right now.",
+    "popular": "Popular",
+    "popular_description": "See what's trending! These are the movies and shows everyone is watching and talking about.",
+    "top_rated": "Top Rated",
+    "top_rated_description": "Discover what have won over the hearts and minds of audiences and critics.",
+    "upcoming": "Upcoming",
+    "upcoming_description": "Stay tuned about the next big hits set to premiere soon.",
+    "tv_series": "TV Series",
+    "tv_series_description": "Binge-worthy series. Explore new stories, unforgettable characters, and your next binge-watches.",
+    "airing_today": "Airing Today",
+    "airing_today_description": "Don't miss a beat! See which shows have fresh episodes coming out of the oven today.",
+    "on_the_air": "On the Air",
+    "on_the_air_description": "Tune in here to not miss out on current episodes of the hottest series right now.",
+    "people": "People",
+    "lists": "Lists",
+    "lists_description": "Your picks, your interests. Create and share lists of your favorite movies and shows with the community."
+  },
+  "sidebar_search": {
+    "placeholder": "Search for movies, TV Series, or people",
+    "search_everything": "Search anything",
+    "no_results": "No results found.",
+    "movies": "Movies",
+    "tv_series": "TV Series",
+    "people": "People"
+  },
+  "watch_providers": {
+    "label": "Watch Providers",
+    "stream": "Stream",
+    "rent": "Rent",
+    "buy": "Buy"
+  },
+  "lists_dropdown": {
+    "add_to_list": "Add to list",
+    "my_lists": "My lists",
+    "removed_successfully": "Removed successfully.",
+    "added_successfully": "Added successfully.",
+    "view_list": "View list"
+  },
+  "credits": {
+    "cast": "Cast",
+    "crew": "Crew"
+  },
+  "review_form": {
+    "required": "Review is required.",
+    "rating_max": "Max value of rating is 5",
+    "success": "Review created successfully.",
+    "publish": "Publish",
+    "placeholder": "What you think about?",
+    "login": "Login",
+    "register": "Register",
+    "or": "or",
+    "make_first_review": "to make your first review!"
+  },
+  "review_reply_form": {
+    "success": "Reply created successfully."
+  },
+  "review_reply": {
+    "reply": "Reply",
+    "placeholder": "Add a reply...",
+    "open_replies": "View replies",
+    "hide_replies": "Hide replies"
+  },
+  "review_item": {
+    "ago": "ago"
+  },
+  "review_item_actions": {
+    "like": "Like",
+    "reply": "Reply",
+    "dialog_title": "Are you absolutely sure?",
+    "dialog_description": "This action cannot be undone."
+  },
+  "review_reply_actions": {
+    "like": "Like",
+    "delete": "Delete",
+    "delete_success": "Reply deleted successfully.",
+    "dialog_title": "Are you absolutely sure?",
+    "dialog_description": "This action cannot be undone.",
+    "dialog_close": "Close"
+  },
+  "movie_collection": {
+    "part_of": "Part of",
+    "see_collection": "See collection"
+  },
+  "collection_list_dropdown": {
+    "add_collection_to_list": "Add collection to list",
+    "my_lists": "My lists",
+    "collection_removed_successfully": "Collection removed successfully.",
+    "collection_added_successfully": "Collection added successfully.",
+    "view_list": "View list"
+  },
+  "settings_dropdown": {
+    "theme": "Theme",
+    "light": "🌞 Light",
+    "dark": "🌚 Dark",
+    "language": "Language",
+    "account": "Account",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "auth": {
+    "logout_success": "Successfully logged out. See you next time ✌"
+  },
+  "lists_page": {
+    "title": "Lists",
+    "description": "Create watch-lists to manage your movies, animes and tv series."
+  },
+  "list_card": {
+    "delete": "Delete",
+    "delete_success": "List deleted successfully.",
+    "dialog_title": "Are you absolutely sure?",
+    "dialog_description": "This action cannot be undone. This preset will no longer be accessible by you or others you've shared it with.",
+    "dialog_close": "Close"
+  },
+  "list_form": {
+    "create_new_list": "Create new list",
+    "name": "Name",
+    "name_placeholder": "My List",
+    "name_required": "Name of list is required.",
+    "description": "Description",
+    "description_placeholder": "Movies, Animes and TV Series I plan to watch.",
+    "visibility": "Visibility",
+    "visibility_option_public": "Public",
+    "visibility_option_network": "Network",
+    "visibility_option_private": "Private",
+    "visibility_option_description_public": "Visible to everyone.",
+    "visibility_option_description_network": "Visible to friends only.",
+    "visibility_option_description_private": "Visible to just me.",
+    "submit": "Submit",
+    "list_created_success": "List created successfully!",
+    "edit_list": "Edit List",
+    "list_edited_success": "List edited successfully."
+  },
+  "list_page": {
+    "list_not_found": "List not found.",
+    "see_your_lists_or_create_new": "See your lists or create new clicking",
+    "here": "here"
+  },
+  "list_items": {
+    "table": "Table",
+    "grid": "Grid"
+  },
+  "data_table": {
+    "title": "Title",
+    "type": "Type",
+    "overview": "Overview",
+    "added_at": "Added at",
+    "status": "Status",
+    "no_results": "No results found.",
+    "clear_filters": "Clear filters"
+  },
+  "data_table_column_header": {
+    "asc": "Asc",
+    "desc": "Desc",
+    "hide": "Hide"
+  },
+  "data_table_toolbar": {
+    "filter_items_placeholder": "Filter items...",
+    "reset": "Reset"
+  },
+  "data_table_columns": {
+    "index": "Index",
+    "title": "Title",
+    "type": "Type",
+    "added_at": "Added at",
+    "status": "Status",
+    "actions": "Actions",
+    "movie": "Movie",
+    "tv_serie": "TV Show"
+  },
+  "data_table_view_options": {
+    "view": "View",
+    "toggle_columns": "Toggle columns"
+  },
+  "statuses": {
+    "pending": "Pending",
+    "watching": "Watching",
+    "watched": "Watched"
+  },
+  "list_item_actions": {
+    "use_as_cover": "Use as cover",
+    "status": "Status",
+    "delete": "Delete",
+    "removed_successfully": "Removed successfully.",
+    "cover_changed_successfully": "Cover changed successfully.",
+    "see_details": "See details"
+  },
+  "credits_columns": {
+    "year": "Year",
+    "title": "Title",
+    "role": "Role",
+    "rating": "Rating"
+  },
+  "movie_pages": {
+    "discover": {
+      "title": "Discover",
+      "description": "Find movies using filters and sort options."
+    },
+    "now_playing": {
+      "title": "Now Playing",
+      "description": "Movies that are currently in theatres."
+    },
+    "popular": {
+      "title": "Popular",
+      "description": "Movies ordered by popularity."
+    },
+    "top_rated": {
+      "title": "Top Rated",
+      "description": "Movies ordered by rating."
+    },
+    "upcoming": {
+      "title": "Upcoming",
+      "description": "Movies that are being released soon."
+    }
+  },
+  "tv_serie_pages": {
+    "airing_today": {
+      "title": "Airing Today",
+      "description": "TV Series airing today."
+    },
+    "on_the_air": {
+      "title": "On the Air",
+      "description": "TV Series that air in the next 7 days."
+    },
+    "popular": {
+      "title": "Popular",
+      "description": "TV Series ordered by popularity."
+    },
+    "top_rated": {
+      "title": "Top Rated",
+      "description": "TV Series ordered by rating."
+    },
+    "discover": {
+      "title": "Discover",
+      "description": "Find TV Series using filters and sort options."
+    }
+  },
+  "user_last_review": {
+    "title": "Your last review",
+    "no_review_message": "Looks like you haven't written any reviews yet!",
+    "no_review_action": "Click here to see top-rated movies.",
+    "login": "Login",
+    "register": "Register",
+    "or": "or",
+    "make_first_review": "to make your first review!"
+  },
+  "popular_reviews": {
+    "title": "Popular reviews",
+    "no_reviews_found": "We didn't find any reviews.",
+    "explore_popular_movies": "Explore popular movies, and give us your opinion.",
+    "last_week": "Last week",
+    "last_month": "Last month",
+    "all_time": "All time"
+  },
+  "movies_list_filters": {
+    "title": "Discover Movies",
+    "tabs": {
+      "filters": "Filters",
+      "order": "Sort",
+      "watch_providers": "Where to Watch"
+    },
+    "actions": {
+      "close": "Close",
+      "save_changes": "Save Changes"
+    },
+    "genres_field": {
+      "label": "Genres",
+      "placeholder": "Select a genre",
+      "no_genre_message": "You haven't selected any genres."
+    },
+    "language_field": {
+      "label": "Language",
+      "placeholder": "Select a language"
+    },
+    "release_date_field": {
+      "from_label": "From",
+      "to_label": "To",
+      "from_placeholder": "18/11/2002",
+      "to_placeholder": "18/11/2003",
+      "select_date": "Select a date"
+    },
+    "sort_by": {
+      "label": "Sort by",
+      "placeholder": "Sort by",
+      "options": {
+        "popularity.desc": "Highest Popularity",
+        "popularity.asc": "Lowest Popularity",
+        "revenue.desc": "Highest Revenue",
+        "revenue.asc": "Lowest Revenue",
+        "primary_release_date.desc": "Most Recent",
+        "primary_release_date.asc": "Least Recent",
+        "vote_average.desc": "Highest Rated",
+        "vote_average.asc": "Lowest Rated",
+        "vote_count.desc": "Most Voted",
+        "vote_count.asc": "Least Voted"
+      }
+    },
+    "watch_providers_field": {
+      "label": "Watch providers",
+      "placeholder": "Filter by watch providers",
+      "clear_filters": "Clear filters",
+      "no_results": "No results found."
+    },
+    "watch_region_field": {
+      "label": "Region",
+      "placeholder": "Select a region"
+    },
+    "vote_average_field": {
+      "label": "Average Score"
+    },
+    "vote_count_field": {
+      "label": "Minimum Votes"
+    },
+    "no_results": "No results."
+  },
+  "tv_series_list_filters": {
+    "title": "Discover TV Series",
+    "tabs": {
+      "filters": "Filters",
+      "order": "Order",
+      "watch_providers": "Where to Watch"
+    },
+    "actions": {
+      "close": "Close",
+      "save_changes": "Save Changes"
+    },
+    "genres_field": {
+      "label": "Genres",
+      "placeholder": "Select a genre",
+      "no_genre_message": "No genre selected."
+    },
+    "language_field": {
+      "label": "Language",
+      "placeholder": "Select a language"
+    },
+    "air_date": {
+      "from_label": "From",
+      "to_label": "To",
+      "from_placeholder": "18/11/2002",
+      "to_placeholder": "18/11/2003",
+      "select_date": "Select a date"
+    },
+    "sort_by": {
+      "label": "Sort by",
+      "placeholder": "Sort by",
+      "options": {
+        "popularity.desc": "Most Popular",
+        "popularity.asc": "Least Popular",
+        "air_date.desc": "Newest",
+        "air_date.asc": "Oldest",
+        "vote_average.desc": "Highest Rated",
+        "vote_average.asc": "Lowest Rated",
+        "vote_count.desc": "Most Voted",
+        "vote_count.asc": "Least Voted"
+      }
+    },
+    "watch_providers_field": {
+      "label": "Watch Providers",
+      "placeholder": "Filter by provider",
+      "clear_filters": "Clear filters",
+      "no_results": "No results found."
+    },
+    "watch_region_field": {
+      "label": "Region",
+      "placeholder": "Select a region"
+    },
+    "vote_average_field": {
+      "label": "Average Score"
+    },
+    "vote_count_field": {
+      "label": "Minimum Votes"
+    },
+    "no_results": "No results."
+  },
+  "list_command": {
+    "search_placeholder": "Search for anything...",
+    "no_results": "No results found.",
+    "tv_series_label": "TV Series",
+    "tv_added_success": "TV Series successfully added.",
+    "tv_removed_success": "TV Series successfully removed.",
+    "movies_label": "Movies",
+    "remove_from_list": "Remove from list",
+    "add_to_list": "Add to list",
+    "view_details": "View details",
+    "movie_added_success": "Movie successfully added.",
+    "movie_removed_success": "Movie successfully removed.",
+    "year_prefix": "•"
+  },
+  "no_account_tooltip": "It looks like you don't have an account yet. Click here to join the platform.",
+  "user_resume": {
+    "by": "by"
+  },
+  "tv_serie_season_details": {
+    "episode_number": "Episode",
+    "name": "Name",
+    "overview": "Overview",
+    "runtime": "Runtime",
+    "vote": "Vote"
+  },
+  "popular_people": {
+    "title": "Popular People",
+    "description": "Get a list of people ordered by popularity."
+  },
+  "changelog": {
+    "title": "Changelog",
+    "description": "New updates and improvements.",
+    "subscribe": "Subscribe to updates!"
+  },
+  "footer": {
+    "status": "Status: Operational",
+    "rights": "© Status 451. All rights reserved.",
+    "data_provided_by": "Data provided by TMDB.",
+    "sections": {
+      "product": "Product",
+      "company": "Company",
+      "developers": "Developers",
+      "features": "Features",
+      "pricing": "Pricing",
+      "changelog": "Changelog",
+      "download": "Download",
+      "about_us": "About us",
+      "careers": "Careers",
+      "brand": "Brand",
+      "status": "Status",
+      "github": "GitHub"
+    }
+  },
+  "text_actions": {
+    "expand": "See more",
+    "contract": "See less"
+  },
+  "grid": "Grid",
+  "table": "Table",
+  "person_page": {
+    "credit_list": {
+      "show_all": "Show all",
+      "show_less": "Show less"
+    }
+  },
+  "thank_you": {
+    "title": "Thank you for your support!",
+    "subtitle": "You're now part of the pros' plan!",
+    "description": "With great powers come great responsibilities:",
+    "feature1": {
+      "title": "Endless Lists",
+      "description": "Say goodbye to limitations! Create and maintain as many lists as you'd like, to organize your binge-watching sessions, plan movie nights, and much more."
+    },
+    "feature2": {
+      "title": "Tailored Recommendations",
+      "description": "Discover new titles that perfectly match your unique taste, thanks to our smart system for personalized recommendations."
+    },
+    "feature3": {
+      "title": "Clone and Conquer",
+      "description": "Get inspired by other members' lists or create personalized versions of your own lists with the ease of a click."
+    },
+    "feature4": {
+      "title": "Your Name, Your Identity",
+      "description": "Feeling the need for a change? Update your username whenever you wish, keeping your digital identity aligned with your cinephile self."
+    }
+  },
+  "list_recommendations": {
+    "title": "Recommendations",
+    "movies": "Movies",
+    "series": "Series",
+    "block": {
+      "first_line": "Become",
+      "second_line": "for exclusive recommendations."
+    },
+    "added_successfully": "Suggestion added successfully.",
+    "add_to_list": "Add to list",
+    "view_details": "View details"
+  },
+  "profile": {
+    "achievements": "Achievements",
+    "reviews": "Reviews",
+    "lists": "Lists",
+    "communities": "Communities",
+    "work_in_progress": "Work in progress"
+  },
+  "profile_form": {
+    "dialog_title": "Edit profile",
+    "username_label": "Username",
+    "username_placeholder": "John",
+    "username_required": "New username is required",
+    "username_invalid": "Invalid username",
+    "error_existent_username": "already exists.",
+    "same_username": "You have to try a new username",
+    "submit_button": "Save changes"
+  },
+  "profile_banner": {
+    "change_banner": "Change banner",
+    "changed_successfully": "Banner changed successfully."
+  },
+  "private_list": {
+    "title": "✋ Hold on, buddy!",
+    "description": "You are not authorized to view this list.",
+    "cta": "View other lists."
+  },
+  "review_likes": {
+    "title": "Likes",
+    "view_profile": "View profile"
+  },
+  "access_now": "Access now",
+  "create_account": "Create account",
+  "search_movies_or_series": "Search movies or series...",
+  "select_an_image": "Select an image",
+  "profile_image_changed_successfully": "Profile image successfully changed.",
+  "review_deleted_successfully": "Review deleted successfully.",
+  "edit": "Edit",
+  "delete": "Delete",
+  "close": "Close",
+  "edit_review": "Edit review",
+  "edit_reply": "Edit reply"
+}

@@ -1,0 +1,673 @@
+{
+  "home": {
+    "title": "Explore filmes, séries e animes!",
+    "description": "O Plotwist é para os fãs de cinema que gostam de explorar milhões de filmes e séries, com informações como sinopse, elenco, orçamento e muito mais.",
+    "keywords": "cinema, filmes, séries, animes, doramas, atores famosos, episódios de séries, usuários de cinema, descobrir novos filmes, avaliações de filmes, recomendações de filmes, lançamentos de cinema, filmes populares, séries populares, filmes bem avaliados, filmes em exibição, comunidade de cinema, listas de filmes, discussões sobre filmes",
+    "statistics": {
+      "movies": {
+        "value": 988788,
+        "label": "Filmes"
+      },
+      "tv": {
+        "value": 167204,
+        "label": "Séries de TV"
+      },
+      "episodes": {
+        "value": 4419904,
+        "label": "Episódios"
+      },
+      "people": {
+        "value": 3369005,
+        "label": "Atores"
+      },
+      "users": {
+        "label": "Usuários"
+      }
+    },
+    "features": {
+      "section_title": "Principais funcionalidades",
+      "section_description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo iste sunt alias ipsum minima aspernatur excepturi cum perferendis dolorum nostrum, consequatur ullam! Veniam enim neque sint adipisci labore ratione quidem.",
+      "lists": {
+        "title": "Listas",
+        "description": "Crie e gerencie o status dos seus filmes, séries e animes em um único lugar incrível."
+      },
+      "reviews": {
+        "title": "Avaliações",
+        "description": "Escreva avaliações sobre o que você está assistindo e deixe o mundo conhecer sua opinião."
+      },
+      "multi_lang_support": {
+        "title": "Suporte multilíngue",
+        "description": "Nós oferecemos suporte a diferentes idiomas para alcançar diferentes países."
+      },
+      "communities": {
+        "title": "Comunidades",
+        "description": "Crie ou participe de comunidades de nicho específicas."
+      }
+    }
+  },
+  "home_prices": {
+    "title": "Comece sua jornada hoje!",
+    "description": "Descubra o mundo dos filmes e séries de TV como nunca antes. Inicie sua jornada Plotwist hoje e torne-se parte de uma comunidade crescente de entusiastas do cinema!",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "free_plan": {
+      "title": "Grátis",
+      "price": "R$0/mês",
+      "description": "Explore filmes e crie sua lista de assistência pessoal.",
+      "benefits": [
+        "Acesso total à plataforma",
+        "Avaliações ilimitadas",
+        "Uma lista pessoal"
+      ],
+      "start_now": "Comece agora!"
+    },
+    "pro_plan": {
+      "title": "Pro",
+      "price": "R$3/mês",
+      "recommended": "Recomendado",
+      "description": "Tudo no plano gratuito, porém com limites mais altos e recomendações personalizadas.",
+      "benefits": [
+        "Listas ilimitadas",
+        "Recomendações pessoais baseadas no seu gosto",
+        "Clonar suas listas ou de outros pros",
+        "Mudar nome de usuário"
+      ],
+      "subscribe": "Assine"
+    },
+    "patreon_plan": {
+      "title": "Patreon",
+      "price": "R$10/mês",
+      "description": "Em breve",
+      "coming_soon": "Em breve"
+    }
+  },
+  "movies_list": {
+    "now_playing": "Filmes em exibição",
+    "popular": "Filmes populares",
+    "top_rated": "Filmes mais bem avaliados",
+    "upcoming": "Próximos lançamentos",
+    "show_all": "Mostrar todos"
+  },
+  "animes_page": {
+    "title": "Animes",
+    "description": "Encontre seus animes favoritos",
+    "button_tv_series": "Séries",
+    "button_movies": "Filmes"
+  },
+  "login_page": {
+    "title": "Login",
+    "description": "Faça parte da comunidade de cinema, onde você pode encontrar e discutir milhares de filmes e séries de TV!",
+    "no_account": "Não tem uma conta? Cadastre-se clicando",
+    "no_account_link": "aqui"
+  },
+  "login_form": {
+    "email_label": "E-mail",
+    "password_label": "Senha",
+    "show_password": "Mostrar senha",
+    "hide_password": "Ocultar senha",
+    "access_button": "Acessar",
+    "email_required": "Por favor, insira seu endereço de e-mail.",
+    "email_invalid": "Por favor, insira um endereço de e-mail válido.",
+    "password_required": "Por favor, insira sua senha.",
+    "password_length": "Sua senha deve ter pelo menos 8 caracteres.",
+    "login_success": "Login bem-sucedido. Bem-vindo! 🎉",
+    "invalid_login_credentials": "Credenciais de login inválidas",
+    "try_again": "Tente novamente"
+  },
+  "sign_up_page": {
+    "title": "Criar uma conta",
+    "description": "Faça parte da comunidade de cinema, onde você pode encontrar e discutir milhares de filmes e séries de TV!",
+    "already_have_account": "Já tem uma conta? Acesse clicando",
+    "here_link": "aqui"
+  },
+  "sign_up_form": {
+    "username_label": "Nome de usuário",
+    "email_label": "E-mail",
+    "password_label": "Senha",
+    "show_password": "Mostrar senha",
+    "hide_password": "Ocultar senha",
+    "submit_button": "Enviar",
+    "username_required": "Por favor, insira seu nome de usuário.",
+    "username_invalid": "O nome de usuário deve conter apenas letras, números e hifens.",
+    "email_required": "Por favor, insira seu endereço de e-mail.",
+    "email_invalid": "Por favor, insira um endereço de e-mail válido.",
+    "password_required": "Por favor, insira sua senha.",
+    "password_length": "Sua senha deve ter pelo menos 8 caracteres.",
+    "sign_up_success": "Cadastro bem-sucedido. Bem-vindo! 🎉",
+    "invalid_sign_up_credentials": "Credenciais de cadastro inválidas",
+    "try_again": "Tente novamente",
+    "username_already_taken": "Este nome de usuário ou e-mail já está em uso."
+  },
+  "app_page": {
+    "dashboard_title": "Início",
+    "dashboard_description": "Visão geral de suas atividades e tendências.",
+    "popular_movies_title": "Filmes Populares",
+    "popular_tv_series_title": "Séries Populares"
+  },
+  "tabs": {
+    "reviews": "Avaliações",
+    "credits": "Créditos",
+    "recommendations": "Recomendações",
+    "similar": "Similares",
+    "images": "Imagens",
+    "videos": "Vídeos",
+    "seasons": "Temporadas"
+  },
+  "navigation": {
+    "home": "Início",
+    "movies": "Filmes",
+    "discover": "Descobrir",
+    "discover_description": "Pronto para algo novo? Deixe-nos surpreendê-lo com filmes e séries que você vai adorar.",
+    "now_playing": "Em exibição",
+    "now_playing_description": "Fique por dentro dos filmes que estão brilhando nas telonas agora.",
+    "popular": "Populares",
+    "popular_description": "Veja o que está bombando! Estes são os filmes e séries que todo mundo está assistindo e comentando.",
+    "top_rated": "Bem avaliados",
+    "top_rated_description": "Descubra o que conquistou os corações e mentes do público e da crítica.",
+    "upcoming": "Lançamentos",
+    "upcoming_description": "Antecipe-se e fique por dentro dos próximos sucessos que vão invadir as telas em breve.",
+    "tv_series": "Séries",
+    "tv_series_description": "Séries que vão te prender. Explore novas histórias, personagens inesquecíveis e suas próximas maratonas.",
+    "airing_today": "Exibindo hoje",
+    "airing_today_description": "Não perca o ritmo! Veja quais séries têm episódios fresquinhos saindo do forno hoje.",
+    "on_the_air": "No ar",
+    "on_the_air_description": "Sintonize aqui para não perder os episódios atuais das séries mais quentes do momento.",
+    "people": "Pessoas",
+    "lists": "Listas",
+    "lists_description": "Suas seleções, seus interesses. Crie e compartilhe listas dos seus filmes e séries preferidos com a comunidade."
+  },
+  "sidebar_search": {
+    "placeholder": "Procure por filmes, séries ou pessoas",
+    "search_everything": "Procure por tudo",
+    "no_results": "Nenhum resultado encontrado.",
+    "movies": "Filmes",
+    "tv_series": "Séries de TV",
+    "people": "Pessoas"
+  },
+  "watch_providers": {
+    "label": "Onde assistir",
+    "stream": "Assinatura",
+    "rent": "Alugar",
+    "buy": "Comprar"
+  },
+  "lists_dropdown": {
+    "add_to_list": "Adicionar à lista",
+    "my_lists": "Minhas listas",
+    "removed_successfully": "Removido com sucesso.",
+    "added_successfully": "Adicionado com sucesso.",
+    "view_list": "Ver lista"
+  },
+  "credits": {
+    "cast": "Elenco",
+    "crew": "Equipe"
+  },
+  "review_form": {
+    "required": "Avaliação é necessária.",
+    "rating_max": "O valor máximo da classificação é 5",
+    "success": "Avaliação criada com sucesso.",
+    "publish": "Publicar",
+    "placeholder": "O que você acha?",
+    "login": "Faça login",
+    "register": "Cadastre-se",
+    "or": "ou",
+    "make_first_review": "para fazer sua primeira avaliação!"
+  },
+  "review_reply_form": {
+    "success": "Resposta criada com sucesso."
+  },
+  "review_reply": {
+    "reply": "Responder",
+    "placeholder": "Adicione uma resposta...",
+    "open_replies": "Ver respostas",
+    "hide_replies": "Ocultar respostas"
+  },
+  "review_item": {
+    "ago": "atrás"
+  },
+  "review_item_actions": {
+    "like": "Curtir",
+    "reply": "Responder",
+    "dialog_title": "Você tem certeza absoluta?",
+    "dialog_description": "Esta ação não pode ser desfeita."
+  },
+  "review_reply_actions": {
+    "like": "Curtir",
+    "delete": "Apagar",
+    "delete_success": "Resposta excluída com sucesso.",
+    "dialog_title": "Você tem certeza absoluta?",
+    "dialog_description": "Esta ação não pode ser desfeita.",
+    "dialog_close": "Fechar"
+  },
+  "movie_collection": {
+    "part_of": "Parte de",
+    "see_collection": "Ver coleção"
+  },
+  "collection_list_dropdown": {
+    "add_collection_to_list": "Adicionar coleção à lista",
+    "my_lists": "Minhas listas",
+    "collection_removed_successfully": "Coleção removida com sucesso.",
+    "collection_added_successfully": "Coleção adicionada com sucesso.",
+    "view_list": "Ver lista"
+  },
+  "settings_dropdown": {
+    "theme": "Tema",
+    "light": "🌞 Claro",
+    "dark": "🌚 Escuro",
+    "language": "Idioma",
+    "account": "Conta",
+    "logout": "Sair",
+    "profile": "Perfil"
+  },
+  "auth": {
+    "logout_success": "Logout realizado com sucesso. Até a próxima ✌"
+  },
+  "lists_page": {
+    "title": "Listas",
+    "description": "Crie listas para gerenciar seus filmes e séries."
+  },
+  "list_card": {
+    "delete": "Deletar",
+    "delete_success": "Lista deletada com sucesso.",
+    "dialog_title": "Tem certeza absoluta?",
+    "dialog_description": "Esta ação não pode ser anulada. Esta lista deixará de existir para sempre.",
+    "dialog_close": "Fechar"
+  },
+  "list_form": {
+    "create_new_list": "Criar nova lista",
+    "name": "Nome",
+    "name_placeholder": "Minha Lista",
+    "name_required": "O nome da lista é necessário.",
+    "description": "Descrição",
+    "description_placeholder": "Filmes e séries que planejo assistir.",
+    "visibility": "Visibilidade",
+    "visibility_option_public": "Público",
+    "visibility_option_network": "Rede",
+    "visibility_option_private": "Privado",
+    "visibility_option_description_public": "Visível para todos.",
+    "visibility_option_description_network": "Visível apenas para amigos.",
+    "visibility_option_description_private": "Visível apenas para mim.",
+    "submit": "Enviar",
+    "list_created_success": "Lista criada com sucesso!",
+    "edit_list": "Editar lista",
+    "list_edited_success": "Lista editada com sucesso."
+  },
+  "list_page": {
+    "list_not_found": "Lista não encontrada.",
+    "see_your_lists_or_create_new": "Veja suas listas ou crie uma nova clicando",
+    "here": "aqui"
+  },
+  "list_items": {
+    "table": "Tabela",
+    "grid": "Grade"
+  },
+  "data_table": {
+    "title": "Título",
+    "type": "Tipo",
+    "overview": "Visão geral",
+    "added_at": "Adicionado em",
+    "status": "Status",
+    "no_results": "Nenhum resultado encontrado.",
+    "clear_filters": "Limpar filtros"
+  },
+  "data_table_column_header": {
+    "asc": "Asc",
+    "desc": "Desc",
+    "hide": "Ocultar"
+  },
+  "data_table_toolbar": {
+    "filter_items_placeholder": "Filtrar itens...",
+    "reset": "Redefinir"
+  },
+  "data_table_columns": {
+    "index": "Índice",
+    "title": "Título",
+    "type": "Tipo",
+    "added_at": "Adicionado em",
+    "status": "Status",
+    "actions": "Ações",
+    "movie": "Filme",
+    "tv_serie": "Série"
+  },
+  "data_table_view_options": {
+    "view": "Visualizar",
+    "toggle_columns": "Alternar colunas"
+  },
+  "statuses": {
+    "pending": "Pendente",
+    "watching": "Assistindo",
+    "watched": "Assistido"
+  },
+  "list_item_actions": {
+    "use_as_cover": "Usar como capa",
+    "status": "Status",
+    "delete": "Deletar",
+    "removed_successfully": "Removido com sucesso.",
+    "cover_changed_successfully": "Capa alterada com sucesso.",
+    "see_details": "Ver detalhes"
+  },
+  "credits_columns": {
+    "year": "Ano",
+    "title": "Título",
+    "role": "Papel",
+    "rating": "Avaliação"
+  },
+  "movie_pages": {
+    "discover": {
+      "title": "Descubra",
+      "description": "Encontre filmes usando filtros e opções de ordenação."
+    },
+    "now_playing": {
+      "title": "Em exibição",
+      "description": "Filmes que estão atualmente nos cinemas."
+    },
+    "popular": {
+      "title": "Populares",
+      "description": "Filmes ordenados por popularidade."
+    },
+    "top_rated": {
+      "title": "Mais bem avaliados",
+      "description": "Filmes ordenados por avaliação."
+    },
+    "upcoming": {
+      "title": "Próximos lançamentos",
+      "description": "Filmes que serão lançados em breve."
+    }
+  },
+  "tv_serie_pages": {
+    "airing_today": {
+      "title": "Transmitindo hoje",
+      "description": "Séries de TV transmitidas hoje."
+    },
+    "on_the_air": {
+      "title": "No ar",
+      "description": "Séries de TV que serão transmitidas nos próximos 7 dias."
+    },
+    "popular": {
+      "title": "Populares",
+      "description": "Séries de TV ordenadas por popularidade."
+    },
+    "top_rated": {
+      "title": "Mais bem avaliadas",
+      "description": "Séries de TV ordenadas por avaliação."
+    },
+    "discover": {
+      "title": "Descubra",
+      "description": "Descubra séries de tv utilizando filtros avançados."
+    }
+  },
+  "user_last_review": {
+    "title": "Sua última avaliação",
+    "no_review_message": "Parece que você não escreveu nenhuma avaliação! 😿",
+    "no_review_action": "Clique aqui para ver os filmes mais bem avaliados.",
+    "login": "Faça login",
+    "register": "Cadastre-se",
+    "or": "ou",
+    "make_first_review": "para fazer sua primeira avaliação!"
+  },
+  "popular_reviews": {
+    "title": "Avaliações populares",
+    "no_reviews_found": "Não encontramos nenhuma avaliação.",
+    "explore_popular_movies": "Explore filmes populares e nos dê sua opinião.",
+    "last_week": "Última semana",
+    "last_month": "Último mês",
+    "all_time": "Todo o período"
+  },
+  "movies_list_filters": {
+    "title": "Descubra Filmes",
+    "tabs": {
+      "filters": "Filtros",
+      "order": "Ordenar",
+      "watch_providers": "Onde Assistir"
+    },
+    "actions": {
+      "close": "Fechar",
+      "save_changes": "Salvar Alterações"
+    },
+    "genres_field": {
+      "label": "Gêneros",
+      "placeholder": "Selecione um gênero",
+      "no_genre_message": "Você não selecionou nenhum gênero."
+    },
+    "language_field": {
+      "label": "Idioma",
+      "placeholder": "Selecione um idioma"
+    },
+    "release_date_field": {
+      "from_label": "De",
+      "to_label": "Até",
+      "from_placeholder": "18/11/2002",
+      "to_placeholder": "18/11/2003",
+      "select_date": "Selecione uma data"
+    },
+    "sort_by": {
+      "label": "Ordenar por",
+      "placeholder": "Ordenar por",
+      "options": {
+        "popularity.desc": "Mais popular",
+        "popularity.asc": "Menos popular",
+        "revenue.desc": "Maior receita",
+        "revenue.asc": "Menor receita",
+        "primary_release_date.desc": "Mais recente",
+        "primary_release_date.asc": "Menos recente",
+        "vote_average.desc": "Melhor avaliado",
+        "vote_average.asc": "Pior avaliado",
+        "vote_count.desc": "Mais votado",
+        "vote_count.asc": "Menos votado"
+      }
+    },
+    "watch_providers_field": {
+      "label": "Provedores de serviço",
+      "placeholder": "Filtrar por provedores",
+      "clear_filters": "Limpar filtros",
+      "no_results": "Nenhum resultado encontrado."
+    },
+    "watch_region_field": {
+      "label": "Região",
+      "placeholder": "Selecione uma região"
+    },
+    "vote_average_field": {
+      "label": "Pontuação média"
+    },
+    "vote_count_field": {
+      "label": "Votos mínimos"
+    },
+    "no_results": "Sem resultados."
+  },
+  "tv_series_list_filters": {
+    "title": "Descubra séries",
+    "tabs": {
+      "filters": "Filtros",
+      "order": "Ordenar",
+      "watch_providers": "Onde Assistir"
+    },
+    "actions": {
+      "close": "Fechar",
+      "save_changes": "Salvar Alterações"
+    },
+    "genres_field": {
+      "label": "Gêneros",
+      "placeholder": "Selecione um gênero",
+      "no_genre_message": "Você não selecionou nenhum gênero."
+    },
+    "language_field": {
+      "label": "Idioma",
+      "placeholder": "Selecione um idioma"
+    },
+    "air_date": {
+      "from_label": "De",
+      "to_label": "Até",
+      "from_placeholder": "18/11/2002",
+      "to_placeholder": "18/11/2003",
+      "select_date": "Selecione uma data"
+    },
+    "sort_by": {
+      "label": "Ordenar por",
+      "placeholder": "Ordenar por",
+      "options": {
+        "popularity.desc": "Mais popular",
+        "popularity.asc": "Menos popular",
+        "air_date.desc": "Mais recente",
+        "air_date.asc": "Menos recente",
+        "vote_average.desc": "Melhor avaliado",
+        "vote_average.asc": "Pior avaliado",
+        "vote_count.desc": "Mais votado",
+        "vote_count.asc": "Menos votado"
+      }
+    },
+    "watch_providers_field": {
+      "label": "Provedores de serviço",
+      "placeholder": "Filtrar por provedores",
+      "clear_filters": "Limpar filtros",
+      "no_results": "Nenhum resultado encontrado."
+    },
+    "watch_region_field": {
+      "label": "Região",
+      "placeholder": "Selecione uma região"
+    },
+    "vote_average_field": {
+      "label": "Pontuação média"
+    },
+    "vote_count_field": {
+      "label": "Votos mínimos"
+    },
+    "no_results": "Sem resultados."
+  },
+  "list_command": {
+    "search_placeholder": "Pesquise qualquer coisa...",
+    "no_results": "Nenhum resultado encontrado.",
+    "tv_series_label": "Séries",
+    "tv_added_success": "Série adicionada com sucesso.",
+    "tv_removed_success": "Série removida com sucesso.",
+    "movies_label": "Filmes",
+    "remove_from_list": "Remover da lista",
+    "add_to_list": "Adicionar à lista",
+    "view_details": "Ver detalhes",
+    "movie_added_success": "Filme adicionado com sucesso.",
+    "movie_removed_success": "Filme removido com sucesso."
+  },
+  "no_account_tooltip": "Parece que você ainda não tem uma conta. Clique aqui para fazer parte da plataforma.",
+  "user_resume": {
+    "by": "por"
+  },
+  "tv_serie_season_details": {
+    "episode_number": "Episódio",
+    "name": "Nome",
+    "overview": "Sinopse",
+    "runtime": "Duração",
+    "vote": "Votação"
+  },
+  "popular_people": {
+    "title": "Pessoas populares",
+    "description": "Obtenha uma lista de pessoas ordenadas por popularidade."
+  },
+  "changelog": {
+    "title": "Registro de mudanças",
+    "description": "Novas atualizações e melhorias.",
+    "subscribe": "Inscreva-se para receber atualizações!"
+  },
+  "footer": {
+    "status": "Status: Operacional",
+    "rights": "© Status 451. Todos os direitos reservados.",
+    "data_provided_by": "Dados fornecidos pela TMDB.",
+    "sections": {
+      "product": "Produto",
+      "company": "Empresa",
+      "developers": "Desenvolvedores",
+      "features": "Funcionalidades",
+      "pricing": "Preços",
+      "changelog": "Mudanças",
+      "download": "Baixar",
+      "about_us": "Sobre nós",
+      "careers": "Carreiras",
+      "brand": "Marca",
+      "status": "Status",
+      "github": "GitHub"
+    }
+  },
+  "text_actions": {
+    "expand": "Ver mais",
+    "contract": "Ver menos"
+  },
+  "grid": "Grade",
+  "table": "Tabela",
+  "person_page": {
+    "credit_list": {
+      "show_all": "Mostrar tudo",
+      "show_less": "Mostrar menos"
+    }
+  },
+  "thank_you": {
+    "title": "Obrigado pelo seu apoio!",
+    "subtitle": "Agora você faz parte do plano de pros!",
+    "description": "Com grandes poderes vêm grandes responsabilidades:",
+    "feature1": {
+      "title": "Listas Ilimitadas",
+      "description": "Diga adeus às limitações! Crie e mantenha quantas listas desejar, para organizar suas maratonas de séries, planejar noites de cinema e muito mais."
+    },
+    "feature2": {
+      "title": "Recomendações Sob Medida",
+      "description": "Descubra novos títulos que combinam perfeitamente com o seu gosto único, graças ao nosso sistema inteligente de recomendações personalizadas."
+    },
+    "feature3": {
+      "title": "Clone e Conquiste",
+      "description": "Inspire-se nas listas de outros membros ou crie versões personalizadas das suas próprias listas com a facilidade de um clique."
+    },
+    "feature4": {
+      "title": "Seu Nome, Sua Identidade",
+      "description": "Sentindo a necessidade de mudança? Atualize seu nome de usuário quando quiser, mantendo sua identidade digital alinhada com seu eu cinéfilo."
+    }
+  },
+  "list_recommendations": {
+    "title": "Sugestões",
+    "movies": "Filmes",
+    "series": "Séries",
+    "block": {
+      "first_line": "Torne-se",
+      "second_line": "para sugestões exclusivas."
+    },
+    "added_successfully": "Sugestão adicionada com sucesso.",
+    "add_to_list": "Adicionar à lista",
+    "view_details": "Ver detalhes"
+  },
+  "profile": {
+    "achievements": "Conquistas",
+    "reviews": "Avaliações",
+    "lists": "Listas",
+    "communities": "Comunidades",
+    "work_in_progress": "Em andamento"
+  },
+  "profile_form": {
+    "dialog_title": "Editar perfil",
+    "username_label": "Nome de usuário",
+    "username_placeholder": "John",
+    "username_required": "É necessário um novo nome de usuário",
+    "username_invalid": "Nome de usuário inválido",
+    "error_existent_username": "já existe.",
+    "same_username": "Você precisa tentar um novo nome de usuário",
+    "submit_button": "Salvar alterações"
+  },
+  "profile_banner": {
+    "change_banner": "Mudar banner",
+    "changed_successfully": "Banner alterado com sucesso."
+  },
+  "private_list": {
+    "title": "✋ Calma lá, amigão!",
+    "description": "Você não tem autorização para ver essa lista.",
+    "cta": "Ver outras listas."
+  },
+  "review_likes": {
+    "title": "Curtidas",
+    "view_profile": "Ver perfil"
+  },
+  "access_now": "Acessar agora",
+  "create_account": "Criar conta",
+  "search_movies_or_series": "Busque por filmes ou séries...",
+  "select_an_image": " Selecione uma imagem",
+  "profile_image_changed_successfully": "Imagem do perfil alterada com sucesso.",
+  "review_deleted_successfully": "Avaliação deletada com sucesso.",
+  "edit": "Editar",
+  "delete": "Excluir",
+  "close": "Fechar",
+  "edit_review": "Editar avaliação",
+  "edit_reply": "Editar resposta"
+}

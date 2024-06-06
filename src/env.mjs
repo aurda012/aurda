@@ -1,0 +1,60 @@
+import { z } from 'zod';
+import { createEnv } from '@t3-oss/env-nextjs';
+
+export const env = createEnv({
+  /*
+   * ServerSide Environment variables, not available on the client.
+   */
+  server: {
+    NODE_ENV: z.enum(['development', 'test', 'production']),
+    NEXTAUTH_SECRET:
+      process.env.NODE_ENV === 'production'
+        ? z.string().min(1)
+        : z.string().min(1).optional(),
+    NEXTAUTH_URL: z.preprocess(
+      // This makes Vercel deployments not fail if you don't set NEXTAUTH_URL
+      // Since NextAuth.js automatically uses the VERCEL_URL if present.
+      (str) => process.env.VERCEL_URL ?? str,
+      // VERCEL_URL doesn't include `https` so it cant be validated as a URL
+      process.env.VERCEL ? z.string().min(1) : z.string().url()
+    ),
+
+    // email
+    SMTP_HOST: z.string().optional(),
+    SMTP_PORT: z.string().optional(),
+    SMTP_USER: z.string().optional(),
+    SMTP_PASSWORD: z.string().optional(),
+    SMTP_FROM_EMAIL: z.string().email().optional(),
+
+    GOOGLE_CLIENT_ID: z.string().optional(),
+    GOOGLE_CLIENT_SECRET: z.string().optional(),
+
+    MONGODB_URI: z.string().min(1),
+
+    CLERK_SECRET_KEY: z.string().min(1),
+    NEXT_CLERK_WEBHOOK_SECRET: z.string().min(1),
+
+    UPLOADTHING_SECRET: z.string().min(1),
+    UPLOADTHING_APP_ID: z.string().min(1),
+
+    AUTH_BEARER_TOKEN: z.string().min(1),
+    TEAM_ID_VERCEL: z.string().min(1),
+    PROJECT_ID_VERCEL: z.string().min(1),
+
+    OPENAI_API_KEY: z.string().min(1),
+  },
+  /*
+   * Environment variables available on the client (and server).
+   */
+  client: {
+    NEXT_PUBLIC_APP_NAME: z.string().optional(),
+    NEXT_PUBLIC_GOOGLE_MAP_API_KEY: z.string().optional(),
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1),
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL: z.string().min(1),
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL: z.string().min(1),
+    NEXT_PUBLIC_TMDB_API_KEY: z.string().min(1),
+    NEXT_PUBLIC_URL: z.string().url(),
+    NEXT_PUBLIC_ROOT_DOMAIN: z.string().min(1),
+  },
+  runtimeEnv: process.env,
+});
