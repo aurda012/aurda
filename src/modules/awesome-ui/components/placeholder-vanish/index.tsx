@@ -21,7 +21,7 @@ export function PlaceholdersAndVanishInputDemo() {
   return (
     <div className="flex h-[40rem] flex-col items-center  justify-center px-4">
       <h2 className="mb-10 text-center text-xl text-black dark:text-white sm:mb-20 sm:text-5xl">
-        Ask Aceternity UI Anything
+        Ask Me Anything
       </h2>
       <PlaceholdersAndVanishInput
         placeholders={placeholders}

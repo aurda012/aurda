@@ -27,9 +27,11 @@ export function EmptyScreen({
   className?: string;
 }) {
   return (
-    <div className={`mx-auto w-full transition-all ${className}`}>
+    <div
+      className={`relative mx-auto w-full transition-all sm:left-[112px] ${className}`}
+    >
       <div className="bg-transparent p-2">
-        <div className="mb-4 mt-4 flex flex-col items-start space-y-2">
+        <div className="mb-4 mt-4 flex flex-col items-start space-y-2 ">
           {exampleMessages.map((message, index) => (
             <Button
               key={index}

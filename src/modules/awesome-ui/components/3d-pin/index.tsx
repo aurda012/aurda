@@ -5,13 +5,10 @@ import { PinContainer } from './3d-pin';
 export function AnimatedPinDemo() {
   return (
     <div className="flex h-[40rem] w-full items-center justify-center ">
-      <PinContainer
-        title="dashfusion.vercel.app"
-        href="https://dashfusion.vercel.app"
-      >
+      <PinContainer title="aurda.dev" href="https://aurda.vercel.app">
         <div className="flex h-[20rem] w-[20rem] basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 ">
           <h3 className="!m-0 max-w-xs !pb-2 text-base  font-bold text-slate-100">
-            dashfusion
+            aurda.dev
           </h3>
           <div className="!m-0 !p-0 text-base font-normal">
             <span className="text-slate-500 ">

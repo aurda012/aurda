@@ -338,6 +338,11 @@
   }
 }
 
+.prose
+  :where(strong):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  @apply dark:text-white;
+}
+
 input[cmdk-input] {
   @apply !border-none !shadow-none !ring-0 focus:!border-none;
 }

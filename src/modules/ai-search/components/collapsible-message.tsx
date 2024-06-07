@@ -48,7 +48,7 @@ export const CollapsibleMessage: React.FC<CollapsibleMessageProps> = ({
       <CollapsibleTrigger asChild>
         <div
           className={cn(
-            'flex w-full justify-end',
+            'flex min-w-full justify-end',
             !isCollapsed ? 'hidden' : ''
           )}
         >

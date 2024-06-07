@@ -43,7 +43,6 @@ function LayoutProvider({ children }: LayoutProps) {
           },
         }}
       >
-        {' '}
         <HeliumLayout>{children}</HeliumLayout>
       </ClerkProvider>
     );
@@ -74,7 +73,6 @@ function LayoutProvider({ children }: LayoutProps) {
           },
         }}
       >
-        {' '}
         <BoronLayout>{children}</BoronLayout>
       </ClerkProvider>
     );
@@ -98,7 +96,6 @@ function LayoutProvider({ children }: LayoutProps) {
         },
       }}
     >
-      {' '}
       <HydrogenLayout>{children}</HydrogenLayout>
     </ClerkProvider>
   );

@@ -27,7 +27,7 @@ export default function Logo({
                 : '/aurda.svg'
           }
           alt="aurda"
-          width={85}
+          width={80}
           height={24}
         />
       )}

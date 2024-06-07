@@ -1,7 +1,11 @@
 import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import { NextRequest, NextResponse } from 'next/server';
 
-const isProtectedRoute = createRouteMatcher(['/kanban', '/blog-generator']);
+const isProtectedRoute = createRouteMatcher([
+  '/kanban(.*)',
+  '/blog-generator(.*)',
+  '/admin(.*)',
+]);
 
 export default clerkMiddleware((auth, req: NextRequest) => {
   const url = req.nextUrl;

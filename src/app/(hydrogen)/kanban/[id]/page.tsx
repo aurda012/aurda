@@ -47,6 +47,10 @@ const BoardIdPage: React.FC<PipelineIdPageProps> = async ({ params }) => {
 
   const user = await getUser();
 
+  if (!user) {
+    redirect(`/`);
+  }
+
   if (!boardDetails) {
     redirect(`/kanban`);
   }
@@ -55,14 +59,14 @@ const BoardIdPage: React.FC<PipelineIdPageProps> = async ({ params }) => {
   const lanes = await getLanesWithTicketsAndTags(id);
 
   return (
-    <>
+    <div>
       <PageHeader
         title={pageHeader.title}
         breadcrumb={pageHeader.breadcrumb}
         className="!mb-2"
       />
       <Tabs defaultValue="view" className="w-full">
-        <TabsList className="border-border mb-4 h-auto w-full flex-col gap-4 rounded-none border-b bg-transparent pb-4 sm:h-16 sm:flex-row sm:justify-between sm:gap-0 sm:pb-0">
+        <TabsList className="mb-4 h-auto w-full flex-col gap-4 rounded-none border-b border-border bg-transparent pb-4 sm:h-16 sm:flex-row sm:justify-between sm:gap-0 sm:pb-0">
           <BoardInfoBar boardId={id} boards={allBoards} />
           <div className="flex w-full items-center sm:w-auto">
             <TabsTrigger value="view" className="w-full sm:w-auto">
@@ -87,7 +91,7 @@ const BoardIdPage: React.FC<PipelineIdPageProps> = async ({ params }) => {
           <BoardSettings boardId={id} boards={allBoards} />
         </TabsContent>
       </Tabs>
-    </>
+    </div>
   );
 };
 

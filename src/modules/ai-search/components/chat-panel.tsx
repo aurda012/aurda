@@ -72,14 +72,14 @@ export function ChatPanel({ messages }: ChatPanelProps) {
   // If there are messages and the new button has not been pressed, display the new Button
   if (messages.length > 0 && !isButtonPressed) {
     return (
-      <div className="pointer-events-none fixed bottom-2 left-0 right-0 mx-auto flex items-center justify-center md:bottom-8 xl:left-[270px]">
+      <div className="pointer-events-none fixed bottom-8 left-0 right-0 mx-auto flex items-center justify-center md:bottom-8 xl:left-[270px]">
         <Button
           type="button"
           variant={'secondary'}
           className="group pointer-events-auto rounded-full bg-primary/80 transition-all hover:scale-105 hover:bg-primary"
           onClick={() => handleClear()}
         >
-          <span className="animate-in fade-in mr-2 hidden text-sm duration-300 group-hover:block">
+          <span className="mr-2 hidden text-sm duration-300 animate-in fade-in group-hover:block">
             New
           </span>
           <Plus size={18} className="transition-all group-hover:rotate-90" />
@@ -91,11 +91,14 @@ export function ChatPanel({ messages }: ChatPanelProps) {
   return (
     <div
       className={
-        'ml-[-8vw] flex h-[80vh] w-full flex-col items-center justify-center xs:mx-auto'
+        'mx-auto flex h-[80vh] w-full flex-col items-center justify-center'
       }
     >
-      <form onSubmit={handleSubmit} className="w-full max-w-2xl px-6">
-        <div className="relative flex w-[80vw] items-center xs:w-[400px]">
+      <form
+        onSubmit={handleSubmit}
+        className="mx-auto w-full max-w-2xl justify-center px-6 text-center"
+      >
+        <div className="relative flex w-full items-center xs:w-[400px] sm:left-[112px]">
           <Textarea
             ref={inputRef}
             name="input"
@@ -105,7 +108,7 @@ export function ChatPanel({ messages }: ChatPanelProps) {
             placeholder="Ask a question..."
             spellCheck={false}
             value={input}
-            className="rounded-fill border-input focus-visible:ring-ring disabled:opacity-50' min-h-12 w-full resize-none border bg-muted pb-1 pl-4 pr-10 pt-3 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:border-black/50 focus-visible:outline-none  focus-visible:ring-0 disabled:cursor-not-allowed placeholder:dark:!text-white/65 focus-visible:dark:border-white/65"
+            className="rounded-fill disabled:opacity-50' min-h-12 w-full resize-none border border-input bg-muted pb-1 pl-4 pr-10 pt-3 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:border-black/50 focus-visible:outline-none focus-visible:ring-0  focus-visible:ring-ring disabled:cursor-not-allowed placeholder:dark:!text-white/65 focus-visible:dark:border-white/65"
             onChange={(e) => {
               setInput(e.target.value);
               setShowEmptyScreen(e.target.value.length === 0);

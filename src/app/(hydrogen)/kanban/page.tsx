@@ -6,6 +6,8 @@ import {
   getUserBoards,
 } from '@/modules/kanban/actions/board.actions';
 import { createMetadata } from '@/config/site';
+import { getUser } from '@/database/actions/user.actions';
+import { auth, currentUser } from '@clerk/nextjs/server';
 
 interface PipelinesPageProps {
   params: {
@@ -14,6 +16,18 @@ interface PipelinesPageProps {
 }
 
 const KanbanPage: React.FC<PipelinesPageProps> = async ({ params }) => {
+  const { userId } = auth();
+
+  if (!userId) {
+    redirect('/');
+  }
+
+  const user = await getUser();
+
+  if (!user) {
+    redirect('/');
+  }
+
   const boardsExist = await getUserBoards();
 
   if (!!boardsExist.length) {
