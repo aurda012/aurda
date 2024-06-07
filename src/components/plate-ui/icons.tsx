@@ -1,5 +1,5 @@
-import React from "react";
-import { cva } from "class-variance-authority";
+import React from 'react';
+import { cva } from 'class-variance-authority';
 import {
   AlignCenter,
   AlignJustify,
@@ -61,9 +61,8 @@ import {
   X,
   Ungroup,
   Combine,
-} from "lucide-react";
-
-import type { LucideIcon } from "lucide-react";
+  LucideIcon,
+} from 'lucide-react';
 
 export type Icon = LucideIcon;
 
@@ -245,15 +244,15 @@ export const Icons = {
   twitter: Twitter,
 };
 
-export const iconVariants = cva("", {
+export const iconVariants = cva('', {
   variants: {
     variant: {
-      toolbar: "size-5",
-      menuItem: "mr-2 size-5",
+      toolbar: 'size-5',
+      menuItem: 'mr-2 size-5',
     },
     size: {
-      sm: "mr-2 size-4",
-      md: "mr-2 size-6",
+      sm: 'mr-2 size-4',
+      md: 'mr-2 size-6',
     },
   },
   defaultVariants: {},
